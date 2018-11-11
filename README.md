@@ -1,2 +1,9 @@
 # simple_cache
-A simple Erlang based cache that starts a process for each Key it has.
+==============
+
+An Erlang OTP based cache. Starts a new process for each key in the cache. Example from `Erlang and OTP in action`.
+
+Build
+-----
+
+    $ rebar3 compile
